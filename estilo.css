@@ -1,0 +1,228 @@
+@charset "UTF-8"
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: block;
+    width: 1270px;
+    font-family: BentoLight,Helvetica, sans-serif;
+    font-size: 14px;
+    height: 100%;
+    position: relative;
+    }
+a{
+    text-decoration: none;
+}
+header{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin: -10px 0px 0px -8px;
+    padding: 0px 0px 0px 0px;
+    width: 1280px;
+     }
+header#cabecalho p{
+    display: inline-block;
+    margin-left: 10px;
+}
+header#cabecalho span{
+    position: absolute;
+    top:3%;
+    right:1%;
+    
+}
+nav#cabecalhoglobal{
+    height: 60px !important;
+    background-color: black !important;
+    padding: .0rem 0rem !important;
+}
+section#menu_esquerda{
+    display: block;
+    float: left;
+}
+section#conteudo{
+    display: block;
+    float: left;
+    width: 1040px;
+    margin: auto;
+}
+iframe#frame-conteudo{
+    width: 518px;
+    height: 500px;
+}
+iframe#frame-conteudo::-webkit-scrollbar{
+    display:none;
+}
+iframe#frame-complemento{
+    width: 518px;
+    height: 500px;
+}
+iframe#frame-complemento::-webkit-scrollbar{
+    display:none;
+}
+nav#vertical > ul{
+    width: 213px;
+    border-right-style: solid;
+    border-right-color: #000000;
+    margin-left: -45px;
+}
+nav#vertical > ul > li{
+    width: 170px;
+    height: 21px;
+    margin: 8px;
+    padding: 8px 16px;
+    background-color: rgb(244,245,247);
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border-color: rgb(213,212,217);
+    border-radius: 5px 0px 0px 5px;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-image-width: 1;
+    
+    list-style: none;
+}
+
+nav#horizontal {
+    justify-content: start;
+    padding: .0rem 0rem
+}
+nav#horizontal ul{
+    display: inline-flex !important;
+    background-color: #37383D;
+    height: 38px;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav#horizontal li{
+    margin-top: 2px;
+    color: #B2B2B8;
+    font-size: 14px;
+    font-family: BentoRegular, arial, helvetica, sans-serif;
+    text-decoration: none;
+    padding: 6px 16px 6px 16px;
+    text-decoration: none;
+    display: block;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;   
+}
+nav#horizontal li:hover{
+    font-weight: 500;
+    color: white !important;
+    border-bottom: 4px solid #FF5900;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+nav#horizontal a{
+    text-decoration: none;
+    color: gray;
+}
+nav#horizontal a:hover{
+    color: white;
+}
+main{
+    display: block;
+    position:relative;
+    width: 1250px;
+}
+main h1{
+    position: relative;
+    margin-left: 8px;
+    font-weight: 400;
+}
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight:400;
+}
+table tr.cabecalho{
+    font-weight: bolder;
+}
+table tr.lista:hover{
+    background-color: rgba(25, 157, 197, 0.26);
+}
+td{
+    border-style: solid ;
+    border-color: rgba(197, 221, 240, 0.356);
+    margin: 0;
+    padding: 10px;
+}
+
+table#menus{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight:400;
+    text-align: center;
+    margin-left: 12%;
+    margin-top: 6%;
+    
+}
+table#menus td{
+    padding: 16px 16px 16px 16px;
+    width: 200px;
+    height: 180px;
+    border-radius: 6%;
+    display: inline-block;
+    border: 0;
+}
+table#menus td:hover{
+    background-color: rgba(128, 128, 128, 0.26);
+}
+table td a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: BentoLight;
+    font-display: swap;
+    src: url(fontes/knowledge2017-light-webfont.woff2) format("woff2"), url(fontes/knowledge-light-webfont.eot) format("embedded-opentype"), url(fontes/knowledge-light-webfont.svg) format("svg"), url(fontes/knowledge-light-webfont.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: BentoMedium;
+    font-display: swap;
+    src: url(fontes/knowledge-medium-webfont.woff) format("woff"),url(fontes/knowledge-medium-webfont.eot) format("embedded-opentype"), url(fontes/knowledge-medium-webfont.svg) format("svg"), url(fontes/knowledge-medium-webfont.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+@font-face {
+    font-family: BentoRegular;
+    font-display: swap;
+    src: url(fontes/knowledge-regular-webfont.woff) format("woff"), url(fontes/knowledge-regular-webfont.eot) format("embedded-opentype"), url(fontes/knowledge-regular-webfont.svg) format("svg"), url(fontes/knowledge-regular-webfont.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+@font-face {
+    font-family: bento-icons;
+    src: url();
+    font-weight: 400;
+    font-style: normal
+}
+@font-face {
+    font-family: BentoUltraLight;
+    font-display: swap;
+    font-style: normal
+}
+
+@font-face {
+    font-family: BentoBold;
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: bento-icomoon;
+    font-weight: 400;
+    font-style: normal
