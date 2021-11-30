@@ -182,7 +182,9 @@ table#menus td:hover{
 table td a{
     text-decoration: none;
 }
-
+video{
+    width: 500px;
+}
 @font-face {
     font-family: BentoLight;
     font-display: swap;
