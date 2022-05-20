@@ -161,11 +161,12 @@ td{
 }
 table tr.manchete  {
     font-weight: bolder;
-    background-color: rgba(172, 175, 177, 0.356);
+    background-color: #F7F7F7;
+    border-color:#F7F7F7;
 }
 table td.noticias{
     border-style: solid ;
-    border-color:rgba(172, 175, 177, 0.356);
+    border-color:#F7F7F7;
     margin: 0;
     padding: 10px;
 }
