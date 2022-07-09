@@ -35,20 +35,8 @@ header#cabecalho span{
     position: absolute;
     top:3%;
     right:1%;
+    
 }
-
-main{
-    display: block;
-    position:relative;
-    width: 1536px;
-    height: 800px;
-}
-main h1{
-    position: relative;
-    margin-left: 8px;
-    font-weight: 400;
-}
-
 nav#cabecalhoglobal{
     height: 60px !important;
     background-color: black !important;
@@ -63,24 +51,25 @@ section#conteudo{
     position: relative;
     display: inline;
     float: right;
-    width: 1300px;
-    height: 800px;
+    width: 1040px;
     margin: auto;
+    
 }
 iframe#frame-conteudo{
     display: inline-block;
-    width: 380px;
-    height: 700px;
+    width: 518px;
+    height: 500px;
 }
-
-iframe#frame-complemento{
-    display: inline-block;
-    width: 916px;
-    height: 700px;
-}
-iframe#frame-complemento::-webkit-scrollbar{
+iframe#frame-conteudo::-webkit-scrollbar{
     display:none;
 }
+iframe#frame-complemento{
+    width: 518px;
+    height: 500px;
+    display: inline-block;
+}
+
+
 nav#vertical > ul{
     width: 213px;
     border-right-style: solid;
@@ -103,8 +92,8 @@ nav#vertical > ul > li{
     border-top-style: solid;
     border-left-style: solid;
     border-image-width: 1;
-    
     list-style: none;
+    
 }
 
 nav#horizontal {
@@ -150,35 +139,15 @@ nav#horizontal a{
 nav#horizontal a:hover{
     color: white;
 }
-
-table{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    font-weight:400;
-    border-collapse: collapse;
+main{
+    display: block;
+    position:relative;
+    width: 1250px;
 }
-table tr.cabecalho{
-    font-weight: bolder;
-}
-table tr.lista:hover{
-    background-color: rgba(25, 157, 197, 0.26);
-}
-td{
-    border-style: solid ;
-    border-color: rgba(197, 221, 240, 0.356);
-    margin: 0;
-    padding: 10px;
-}
-table tr.manchete  {
-    font-weight: bolder;
-    background-color: #F7F7F7;
-    border-color:#F7F7F7;
-}
-table td.noticias{
-    border-style: solid ;
-    border-color:#F7F7F7;
-    margin: 0;
-    padding: 10px;
+main h1{
+    position: relative;
+    margin-left: 8px;
+    font-weight: 400;
 }
 table#menus{
     font-family: Arial, Helvetica, sans-serif;
@@ -195,16 +164,11 @@ table#menus td{
     height: 180px;
     border-radius: 6%;
     display: inline-block;
-    border: 0;
 }
 table#menus td:hover{
     background-color: rgba(128, 128, 128, 0.26);
 }
-table td a{
+table#menus td a{
     text-decoration: none;
-}
-video{
-    width:315px;
-    height: 315px;
 }
 
